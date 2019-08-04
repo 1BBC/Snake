@@ -1,0 +1,12 @@
+body{
+	background-color: black;
+}
+canvas {
+	display: block;
+	margin: 0 auto;
+}
+
+select {
+	display: block;
+	margin: 15px auto 0;
+}

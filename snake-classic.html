@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Classic</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="game" width="600" height="600"></canvas>
+  <select id="select" onchange="selectGame(this.value)">
+    <option value="snake-classic" selected>Snake Classic</option>
+    <option value="snake-tron">Snake Tron</option>
+    <option value="snake-multiplayer">Snake Multiplayer</option>
+  </select>
+
+  <script>
+    function selectGame(value){
+      location.href = value + '.html';
+    }
+  </script>
+  <script id="gameScript" src="js/snake-classic.js"></script>
+</body>
+</html>
